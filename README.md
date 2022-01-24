@@ -19,7 +19,9 @@ The simple box model used to emulate GCM is described by following equations:
 ![image](https://user-images.githubusercontent.com/61756907/150725909-dab6f6be-0126-471d-8f3e-00e6af23343f.png)
 
 Known variables: T_n, T_s, N_n, N_s.
+
 Unknown variables: T_d
+
 Unknown parameters: ![image](https://user-images.githubusercontent.com/61756907/150726984-e7943291-3987-467a-9e6d-df7f87e909cf.png)
 
 ## Training data
