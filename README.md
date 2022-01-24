@@ -9,9 +9,9 @@ The work is built based on the example of Navier-Stokes Equation in [PINN](https
 
 ## 3-box climate model:
 The simple box model used to emulate GCM is described by following equations:
-![image](https://user-images.githubusercontent.com/61756907/150725797-2b12e315-0be7-43e7-b6c1-014c47149eeb.png)
-![image](https://user-images.githubusercontent.com/61756907/150725816-889499e6-5c86-43e1-b732-9909f6304410.png)
+![image](https://user-images.githubusercontent.com/61756907/150725892-34335398-e1af-40e1-a226-5945df14dc7d.png)
 
+![image](https://user-images.githubusercontent.com/61756907/150725909-dab6f6be-0126-471d-8f3e-00e6af23343f.png)
 
 ## Training data
 The temperature and TOA radiation flux data of abrupt-4xCO2 experiment preformed by GFDL-CM4 are prepocessed and save as NH and SH mean in file: [temp_data_TN_NS_np.p].
