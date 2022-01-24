@@ -11,7 +11,7 @@ The work is built based on the example of Navier-Stokes Equation in [PINN](https
 The climate model to 
 
 ## Training data
-The temperature and TOA radiation flux data of abrupt-4xCO2 experiment preformed by GFDL-CM4 are prepocessed and save as NH and SH mean in file: temp_data_TN_NS_np.p
+The temperature and TOA radiation flux data of abrupt-4xCO2 experiment preformed by GFDL-CM4 are prepocessed and save as NH and SH mean in file: [temp_data_TN_NS_np.p}
 
 
 ![image](https://user-images.githubusercontent.com/61756907/150723100-61001d3e-f624-4f46-8980-020753ccaddf.png)
