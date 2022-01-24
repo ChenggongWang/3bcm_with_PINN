@@ -14,6 +14,7 @@ The work is built based on the example of Navier-Stokes Equation in [PINN](https
 
 ## 3-box climate model:
 The simple box model used to emulate GCM is described by following equations:
+
 ![image](https://user-images.githubusercontent.com/61756907/150725892-34335398-e1af-40e1-a226-5945df14dc7d.png)
 
 ![image](https://user-images.githubusercontent.com/61756907/150725909-dab6f6be-0126-471d-8f3e-00e6af23343f.png)
