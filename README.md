@@ -2,6 +2,7 @@
 Use Physics Informed Neural Networks (PINN) to 
 - fit the 3-box climate model (3bcm)
 - learn climate parameters (e.g. climate feedbacks, ocean heat uptake rate and efficacy)
+- learn hidden varaibles: deep ocean change
 - predict outside the data range.
 
 The figure below summarize the resluts. We train the PINN with data in year 0-150 and function in year 0-250. Solid lines are the output values in year 0-400 from PINN. It is clearly that the PINN did a reasonably good job in year 150-250, which is outside of the train data but constrianed by function . For the output outside the data and the function range (year 250-400), it begins to be wild. 
