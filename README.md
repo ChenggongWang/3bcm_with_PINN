@@ -8,7 +8,6 @@ Use Physics Informed Neural Networks (PINN) to
 The figure below summarize the resluts. We train the PINN with data in year 0-150 and function in year 0-250. Solid lines are the output values in year 0-400 from PINN. It is clearly that the PINN did a reasonably good job in year 150-250, which is outside of the train data but constrianed by function . For the output outside the data and the function range (year 250-400), it begins to be wild. 
 
 ![image](https://user-images.githubusercontent.com/61756907/150723100-61001d3e-f624-4f46-8980-020753ccaddf.png)
-![download](https://user-images.githubusercontent.com/61756907/150727067-aaaea3a0-fd55-4da7-8acd-e28c308925a2.jpeg)
 
 ## Physics Informed Neural Networks (PINN)
 The work is built based on the example of Navier-Stokes Equation in [PINN](https://github.com/maziarraissi/PINNs). To use NN learns (fits) the data and the physical model in the same time, we need to construct the loss function not only with traditional data loss, but also the function loss. So, the trained NN satisfies the data and the physics in the same time. For more details, please reference: https://maziarraissi.github.io/PINNs/.
