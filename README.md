@@ -4,7 +4,8 @@ Use Physics Informed Neural Networks (PINN) to
 - learn climate parameters (e.g. climate feedbacks, ocean heat uptake rate and efficacy)
 - predict outside the data range.
 
-The figure below summarize the resluts. The NN
+The figure below summarize the resluts. We train the PINN with data in year 0-150 and function in year 0-250. Solid lines are the output values in year 0-400 from PINN.
+
 ![image](https://user-images.githubusercontent.com/61756907/150723100-61001d3e-f624-4f46-8980-020753ccaddf.png)
 
 ## Physics Informed Neural Networks (PINN)
